@@ -16,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "collect-metrics": "node metrics/collect-frontend-metrics.js"
   },
   "eslintConfig": {
     "extends": [
