@@ -32,3 +32,10 @@ jobs:
       run: |
         cd frontend
         npm test
+
+    - name: Simulate Test Failure
+      run: |
+        cd frontend
+        echo "Test failed!" > test-result.txt
+        exit 1
+      continue-on-error: true
